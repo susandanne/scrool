@@ -1,0 +1,338 @@
+/*
+	Author : suman lala
+	Address: 
+	Website: 
+	Email  : 
+	Version: 1.0
+*/
+
+/*******************
+    Global CSS
+*******************/
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+.center{
+	margin:0 auto;
+	display:block;
+}
+a{
+	color:black;
+}
+a:hover{
+text-decoration: none;
+}
+/*******************
+    banner section
+*******************/
+.banner{
+	background-image:url(banner.jpg);  
+	background-size: cover;
+}
+.banner h3{
+	text-transform:uppercase;
+	font-size:16px;
+	color:#fff;
+	font-weight:300;
+}
+.banner-content{
+	padding:200px 0px;
+	
+}
+
+.banner h1{
+	color:#ffe600;
+	font-size:40px;
+	text-transform:uppercase;
+	font-weight:300;
+	padding-bottom:70px;
+	letter-spacing:2px;
+}
+.exp-btn{
+	background:transparent;
+	border:1px solid #ffe600;
+	color:#fff;
+	font-weight:300;
+	text-transform:uppercase;
+	border-radius:0px;
+	padding:12px 45px;
+		
+}
+.exp-btn:hover{
+	background:#ffe600;
+	color:#333;
+	border: 1px solid #ffe600;
+	cursor:pointer;
+	transition:all .5s ease-in-out;
+	font-weight:bold;
+	box-shadow: 3px 4px 9px #333;
+}
+.fa-angle-down{
+	color:#fff;
+	font-weight:300;
+	padding-top:25px;
+}
+
+.fa-angle-down:hover{
+	color:#ffe600;
+	transition:all .5s ease-in-out;
+	
+
+}
+/*******************
+    navigation section
+*******************/
+.navigation{
+	padding:20px 0px;
+	border-bottom: 1px solid yellow;
+}
+ nav ul li{
+	display: inline;
+	list-style: none;
+	font-size: 16px;
+	border:1.5px solid yellow;
+	padding: 5px 15px;
+	margin-right: 2.5em;
+	
+}
+nav ul{
+	margin-top:18px;
+}
+
+/*******************
+    about section
+*******************/
+.about{
+	padding: 70px 0px;
+}
+.about h1{
+	font-size: 36px;
+	color:#333;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	font-weight: 300;
+}
+.about h4{
+	font-size: 16px;
+	color:yellow;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding-bottom: 40px;
+}
+.about h2{
+	color:#333;
+	font-size: 20px;
+	font-weight: 300;
+
+}
+.about h2 span{
+	color:yellow;
+	font-size:24px;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-right: 1px solid yellow;
+}
+.about p{
+	font-size: 16px;
+	font-weight: 300;
+	padding: 25px 20px;
+	color:gray;
+}
+
+/*******************
+ testimonial section
+*******************/
+.testimonial{
+	padding: 150px  0px;
+	background-color: #00adff;
+}
+.testimonial h1{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: 300;
+	color:#333;
+}
+.testimonial p{
+	color:white;
+	font-weight:400;
+	font-size: 16px;
+}
+/*******************
+  portfolio section
+*******************/
+.portfolio{
+	padding:60px 0px;
+}
+.portfolio h1{
+	font-weight: 300;
+	font-size: 36px;
+	color: #131316;
+	text-transform: uppercase;
+}
+.portfolio p{
+	color:#FFE600;
+	font-weight:300;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.portfolio .top{
+	padding-top: 70px;
+}
+.portfolio .bottom{
+	padding-top: 40px;
+}
+.portfolio .hover:hover{
+	transform: scale(1.2,1.2);
+	transition: all .5s ease-in-out;
+	cursor: pointer;
+
+}
+.portfolio .gallery{
+	overflow:hidden;
+	position: relative;
+}
+.portfolio .portfolio-bottom{
+	margin-top:80px;
+}
+.portfolio .fa{
+	color: #FFE600;
+	margin-top: -30px;
+	font-weight: 300;
+}
+/*******************
+  clients section
+*******************/
+.client{
+	padding: 65px 0;
+	background-color: #424245;
+}
+.client h1{
+	font-weight: 300;
+	font-size: 36px;
+	color: #131316;
+	text-transform: uppercase;
+}
+.client p{
+	color:#FFE600;
+	font-weight:300;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.client .logo{
+	padding: 70px 0px;
+}
+.client .logo img:hover{
+	transform: scale(1.3,1.3);
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}  
+/*******************
+  contact section
+*******************/
+
+.contact{
+	padding:60px 0px;
+}
+.contact h1{
+	font-weight: 300;
+	font-size: 36px;
+	color: #131316;
+	text-transform: uppercase;
+}
+.contact p{
+	color:#FFE600;
+	font-weight:300;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.contact .top-padd{
+	padding-top: 70px;
+
+}
+.contact .field{
+	color:red;
+	background: yellow;
+	width:100%;
+	border:none;
+	padding: 15px 30px;
+	margin-bottom:10px;
+	font-weight: 400;
+
+}
+/*******************
+  footer section
+*******************/
+footer{
+	background:#333;
+	color:gray;;
+	padding:10px;
+
+}
+footer h4{
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 10px;
+}
+footer ul{
+	text-align: right;
+	padding-top: 20px;
+}
+footer ul li{
+	list-style: none;
+	display: inline;
+	padding-right: 10px;
+	font-size: 16px;
+
+}
+
+/*****************
+	Media Query
+*****************/
+@media screen and ( max-width: 480px
+)
+{
+	.banner-content {
+    	padding: 100px 0;
+	}
+	.banner-content h1{
+		padding-bottom: 15px;
+	}
+		.fa-angle-down{
+		padding-top: 0px;
+	}
+	.logo{
+		margin: 0 auto;
+ 	}
+	nav ul li{
+	    display: list-item;
+	    list-style: outside none none;
+	    font-size: 18px;
+	    padding: 10px 15px;
+	    margin-right: 0em;
+	    background: #e8e8e8;
+	    text-align: center;
+	}
+	nav ul {
+	    margin-top: 18px;
+	    padding: 0;
+	}
+	.about {
+    	padding: 25px 0;
+	}
+	.about h4{
+		padding: 0;
+	}
+	}
+	.testimonial {
+    	padding: 50px 5px 70px;
+	}
+	.portfolio{
+		padding:20px 0px;
+	}
+	footer h4,footer ul {
+		text-align:center;
+		color:#fff;
+	}
+	
+}
